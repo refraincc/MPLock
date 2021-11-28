@@ -1,0 +1,870 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0ED6154AFC71C3D5DF03409E750A026A /* MPOSSpinLockTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F3CC7F2611E56F1424491A51B2B1C70 /* MPOSSpinLockTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10BC6F7A4234110BB3DA97C3B4F71519 /* Pods-MPLock_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA826FC454AC3326338C2A16ED2DEE44 /* Pods-MPLock_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17F1FFA0C44803EBA645C5930F4EF5F1 /* MPNSLockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C90003EA99029B917E5E817C57680C30 /* MPNSLockTest.m */; };
+		2C7812B5F73BDAC10B63EB21C47AC420 /* MPMutexArrayTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1C34DACD910F7477519E52977D0CCA /* MPMutexArrayTest.m */; };
+		3D62434875846E539B4ABBD5C09E01F7 /* MPNSLockTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CAC07688B05E1A17456BDE11DA2434B /* MPNSLockTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4478EF697751C2A8806A9AE9704E2B26 /* Pods-MPLock_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB080835571A1FD53AED4C739785167 /* Pods-MPLock_Example-dummy.m */; };
+		46294B608FFAE3D880738AE902B23C5C /* MPLock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E82ED63DD176404A2FE4F1026E56B95 /* MPLock-dummy.m */; };
+		55358A6B9361DA52F9ACA295A12FDDEB /* MPMutexLockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F818452C3D93EF2C14D9A4679C2A30 /* MPMutexLockTest.m */; };
+		565F0E892AC7DE9B3B1AF6B7032D140C /* MPSemaphoreTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 69134706AFD97B24C46EBDDB9A64A34A /* MPSemaphoreTest.m */; };
+		5E06C2F0275399DC0080C216 /* MPSynchronizedTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E06C2EE275399DC0080C216 /* MPSynchronizedTest.h */; };
+		5E06C2F1275399DC0080C216 /* MPSynchronizedTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E06C2EF275399DC0080C216 /* MPSynchronizedTest.m */; };
+		6AC775733E905F61D78EE72F6BAB64A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6E0F07E426483E42854523790513859C /* MPLock-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A955D5B348DED98FB1A6A57D8A86897B /* MPLock-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73D391B1008CE8EDA64EA751554165F7 /* MPOSUnfairLockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 901722C0000D7F4EC0DDD03BF7C560D1 /* MPOSUnfairLockTest.m */; };
+		761C5BC1068896C611C24CB64C9127D0 /* MPNSConditionTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CF148A1AFFB52D9F4ABE00802922F0A /* MPNSConditionTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7622C14889D781A80D40EF99E5CF0E8C /* MPLockBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D63EBC8471FBDD746088B7433C4FC23 /* MPLockBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80B00797C9AB8E306BCC2DBFAA8E7DC9 /* MPSerialQueueTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 344DE1E0CE8DC66E488B54560C1691BA /* MPSerialQueueTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91C4755EC6084BC50B30C6935E9ED9BC /* MPOSSpinLockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E12C4B5EB1BD2594BE2BC58F8A97DBAB /* MPOSSpinLockTest.m */; };
+		94E01300D6E8F9400465CEC63055D9C7 /* MPLockBase.m in Sources */ = {isa = PBXBuildFile; fileRef = E58C11B4372B295839680F9321138108 /* MPLockBase.m */; };
+		9B2FB20C5AD773FCC4C81D81E6E1DA90 /* MPMutexattrLockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F685F1250EB65684375C1E7ED23B0 /* MPMutexattrLockTest.m */; };
+		A446DA3CD9A922AB8B6FEED70CF58362 /* Pods-MPLock_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE114CA02E85DCB9A95A5D7BD06FF30A /* Pods-MPLock_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADBEADDDC0E8E7BC3B21C84A34B18A9F /* MPMutexLockTest.h in Headers */ = {isa = PBXBuildFile; fileRef = E8DBC46DDBCD273FA033F4870AD51E78 /* MPMutexLockTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B663957506115281E5307A38D1CD7479 /* MPSerialQueueTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B786AA47DB3FAD4C7D15842A355A492E /* MPSerialQueueTest.m */; };
+		B8D4376D9ABB6DF54FE09734ACF7A5A7 /* MPMutexArrayTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3771BF88F3224112F8C140ABD424D121 /* MPMutexArrayTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3851E37113641C4F54B74750CE7115C /* MPNSConditionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6BC8B8352B12C4DD2C1977C6C18EA5 /* MPNSConditionTest.m */; };
+		C5B6BDD59490EEF4638B4506D8BB0A25 /* MPOSUnfairLockTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 38ED932BDDDCF7336F46440FA23438C3 /* MPOSUnfairLockTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFAC713C9974B2E66455AE9CD2DBFB73 /* MPNSConditionLockTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E1D9F23E671CCA44D0FC86793DA2637 /* MPNSConditionLockTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4AD9081649A47B82B9917C3F78C4D2F /* Pods-MPLock_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D28AF1A18F89463A78FBA24722F67A7 /* Pods-MPLock_Tests-dummy.m */; };
+		F083257C7D219289A1914BE1CABFC9DF /* MPMutexattrLockTest.h in Headers */ = {isa = PBXBuildFile; fileRef = E79C1A2497FBB9F4D6A0EB13B357A5A0 /* MPMutexattrLockTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5D63E541C0E95F13C7F06D459DDBF6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FAFFEAA13377719DE2A47EE82183D5F0 /* MPNSConditionLockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D8313C9BD9A822D65CA6AF08BCEDB6BB /* MPNSConditionLockTest.m */; };
+		FE0429CC82FC17153D7EAE68C00BB208 /* MPSemaphoreTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 190E529949DC3528EB4E2496F0BB9917 /* MPSemaphoreTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE4D1A524782262F358886561E9A4384 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		731F682AB6BA18EF8A0E31BCEAF038CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3FD589B3E80E9A5A5F4659DD4957B7A;
+			remoteInfo = MPLock;
+		};
+		C70D87CEFBED1525E94C4A0A167CD92D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF43DE254F61649422D5B9E43A597235;
+			remoteInfo = "Pods-MPLock_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05BDA0BF45A3964938A2C28CDE3EB895 /* Pods-MPLock_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MPLock_Example.modulemap"; sourceTree = "<group>"; };
+		0CAC07688B05E1A17456BDE11DA2434B /* MPNSLockTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPNSLockTest.h; sourceTree = "<group>"; };
+		0DD9B7BE9DABB94BFB14315619DE0466 /* MPLock-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MPLock-Info.plist"; sourceTree = "<group>"; };
+		0F36E4B8E6985BFF7A08334B74B5FF76 /* Pods-MPLock_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MPLock_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		190E529949DC3528EB4E2496F0BB9917 /* MPSemaphoreTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPSemaphoreTest.h; sourceTree = "<group>"; };
+		2FBECFF696B7D278953D7EC0847C396C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		344DE1E0CE8DC66E488B54560C1691BA /* MPSerialQueueTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPSerialQueueTest.h; sourceTree = "<group>"; };
+		3771BF88F3224112F8C140ABD424D121 /* MPMutexArrayTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPMutexArrayTest.h; sourceTree = "<group>"; };
+		37DFE6E2460FA3308D58B2EA62355053 /* MPLock.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MPLock.modulemap; sourceTree = "<group>"; };
+		38ED932BDDDCF7336F46440FA23438C3 /* MPOSUnfairLockTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPOSUnfairLockTest.h; sourceTree = "<group>"; };
+		3B50337D616309A3102C44DA67FF146F /* Pods-MPLock_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPLock_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3D496B9E7A67CEE09F1B410F43D0504D /* Pods_MPLock_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MPLock_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E1C34DACD910F7477519E52977D0CCA /* MPMutexArrayTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPMutexArrayTest.m; sourceTree = "<group>"; };
+		3F3CC7F2611E56F1424491A51B2B1C70 /* MPOSSpinLockTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPOSSpinLockTest.h; sourceTree = "<group>"; };
+		40407C91F2D4C7D5E855E140E3D1B54C /* MPLock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MPLock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42D35509E55DAEFAB779E1DECA28BF7B /* Pods-MPLock_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MPLock_Tests-Info.plist"; sourceTree = "<group>"; };
+		51F818452C3D93EF2C14D9A4679C2A30 /* MPMutexLockTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPMutexLockTest.m; sourceTree = "<group>"; };
+		5AF67DBFBAF8FDCCB0465E4D47AFF202 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		5D28AF1A18F89463A78FBA24722F67A7 /* Pods-MPLock_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MPLock_Tests-dummy.m"; sourceTree = "<group>"; };
+		5E06C2EE275399DC0080C216 /* MPSynchronizedTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPSynchronizedTest.h; sourceTree = "<group>"; };
+		5E06C2EF275399DC0080C216 /* MPSynchronizedTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPSynchronizedTest.m; sourceTree = "<group>"; };
+		69134706AFD97B24C46EBDDB9A64A34A /* MPSemaphoreTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPSemaphoreTest.m; sourceTree = "<group>"; };
+		6CF148A1AFFB52D9F4ABE00802922F0A /* MPNSConditionTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPNSConditionTest.h; sourceTree = "<group>"; };
+		6D63EBC8471FBDD746088B7433C4FC23 /* MPLockBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPLockBase.h; path = MPLock/Classes/MPLockBase.h; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		813B579FF0F967A248DE3DFE040F87F4 /* Pods-MPLock_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MPLock_Example-frameworks.sh"; sourceTree = "<group>"; };
+		823B7A73CB1A9FF5D1202047AD76A626 /* Pods-MPLock_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPLock_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		84A8B3156174F5A7B729AD7622939A0D /* Pods-MPLock_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MPLock_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		85AF9683EB5B412A2B7745200736BA93 /* Pods_MPLock_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MPLock_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1D9F23E671CCA44D0FC86793DA2637 /* MPNSConditionLockTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPNSConditionLockTest.h; sourceTree = "<group>"; };
+		8E82ED63DD176404A2FE4F1026E56B95 /* MPLock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MPLock-dummy.m"; sourceTree = "<group>"; };
+		901722C0000D7F4EC0DDD03BF7C560D1 /* MPOSUnfairLockTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPOSUnfairLockTest.m; sourceTree = "<group>"; };
+		994F373B69C8EBAD1D4B84630CED7D44 /* MPLock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MPLock.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E6F685F1250EB65684375C1E7ED23B0 /* MPMutexattrLockTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPMutexattrLockTest.m; sourceTree = "<group>"; };
+		A7DDA3EA0D2C0B636BA9902534FC420A /* MPLock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MPLock.debug.xcconfig; sourceTree = "<group>"; };
+		A955D5B348DED98FB1A6A57D8A86897B /* MPLock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPLock-umbrella.h"; sourceTree = "<group>"; };
+		AA92D0019367455E9C83C89595A7AA9C /* Pods-MPLock_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPLock_Example.release.xcconfig"; sourceTree = "<group>"; };
+		ADB080835571A1FD53AED4C739785167 /* Pods-MPLock_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MPLock_Example-dummy.m"; sourceTree = "<group>"; };
+		B786AA47DB3FAD4C7D15842A355A492E /* MPSerialQueueTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPSerialQueueTest.m; sourceTree = "<group>"; };
+		BA6BC8B8352B12C4DD2C1977C6C18EA5 /* MPNSConditionTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPNSConditionTest.m; sourceTree = "<group>"; };
+		BA826FC454AC3326338C2A16ED2DEE44 /* Pods-MPLock_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MPLock_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C134982B8CF33A6171CEC14AE3CCBD63 /* MPLock.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MPLock.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C7455B4FD5E7A463310E1AC8F870D68A /* Pods-MPLock_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPLock_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C90003EA99029B917E5E817C57680C30 /* MPNSLockTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPNSLockTest.m; sourceTree = "<group>"; };
+		CB1E3CFB0EAA075267023F0693590061 /* Pods-MPLock_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MPLock_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D8313C9BD9A822D65CA6AF08BCEDB6BB /* MPNSConditionLockTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPNSConditionLockTest.m; sourceTree = "<group>"; };
+		DE114CA02E85DCB9A95A5D7BD06FF30A /* Pods-MPLock_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MPLock_Example-umbrella.h"; sourceTree = "<group>"; };
+		E12C4B5EB1BD2594BE2BC58F8A97DBAB /* MPOSSpinLockTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPOSSpinLockTest.m; sourceTree = "<group>"; };
+		E58C11B4372B295839680F9321138108 /* MPLockBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPLockBase.m; path = MPLock/Classes/MPLockBase.m; sourceTree = "<group>"; };
+		E719AA122ECEEFE39FDD00A6E231DB0F /* Pods-MPLock_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MPLock_Example-Info.plist"; sourceTree = "<group>"; };
+		E79C1A2497FBB9F4D6A0EB13B357A5A0 /* MPMutexattrLockTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPMutexattrLockTest.h; sourceTree = "<group>"; };
+		E8DBC46DDBCD273FA033F4870AD51E78 /* MPMutexLockTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPMutexLockTest.h; sourceTree = "<group>"; };
+		EBB75E98D11E0FABFD6744471524907D /* MPLock-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPLock-prefix.pch"; sourceTree = "<group>"; };
+		F55E8DB011B11C823B7E2F18157AE50E /* Pods-MPLock_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MPLock_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F947EE63CBE7EAFEF6BA112E6119BEFB /* Pods-MPLock_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MPLock_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		401B19276517778B9FC85C95D9C00D3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D63E541C0E95F13C7F06D459DDBF6B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7806AF52C978BE61234763984B442F7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE4D1A524782262F358886561E9A4384 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E4CC8435F05AC6C752E74D7C78F1E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AC775733E905F61D78EE72F6BAB64A6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10982F53FCDE04C4132836DE57B556F9 /* Pods-MPLock_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F947EE63CBE7EAFEF6BA112E6119BEFB /* Pods-MPLock_Tests.modulemap */,
+				CB1E3CFB0EAA075267023F0693590061 /* Pods-MPLock_Tests-acknowledgements.markdown */,
+				F55E8DB011B11C823B7E2F18157AE50E /* Pods-MPLock_Tests-acknowledgements.plist */,
+				5D28AF1A18F89463A78FBA24722F67A7 /* Pods-MPLock_Tests-dummy.m */,
+				42D35509E55DAEFAB779E1DECA28BF7B /* Pods-MPLock_Tests-Info.plist */,
+				BA826FC454AC3326338C2A16ED2DEE44 /* Pods-MPLock_Tests-umbrella.h */,
+				823B7A73CB1A9FF5D1202047AD76A626 /* Pods-MPLock_Tests.debug.xcconfig */,
+				C7455B4FD5E7A463310E1AC8F870D68A /* Pods-MPLock_Tests.release.xcconfig */,
+			);
+			name = "Pods-MPLock_Tests";
+			path = "Target Support Files/Pods-MPLock_Tests";
+			sourceTree = "<group>";
+		};
+		1D025717C01B42DB785F47389431DB08 /* MPLock */ = {
+			isa = PBXGroup;
+			children = (
+				6D63EBC8471FBDD746088B7433C4FC23 /* MPLockBase.h */,
+				E58C11B4372B295839680F9321138108 /* MPLockBase.m */,
+				D85CA96F76D5DB5E0A743D62D8EF255C /* Lock */,
+				FE9337514F5E363B5E527DD8511E9172 /* Pod */,
+				D2C2A7040A4C8FABB5139795F53FA262 /* Support Files */,
+			);
+			name = MPLock;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4CDD82A8CF5611CE54CD48D8C712DD32 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D025717C01B42DB785F47389431DB08 /* MPLock */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		79D8BD8ED41168CC8108F4088DE10C9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40407C91F2D4C7D5E855E140E3D1B54C /* MPLock.framework */,
+				3D496B9E7A67CEE09F1B410F43D0504D /* Pods_MPLock_Example.framework */,
+				85AF9683EB5B412A2B7745200736BA93 /* Pods_MPLock_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88F60B3826A39499DAF0AA61CCA15A62 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7C644916948D7D13A315723A9C5824B /* Pods-MPLock_Example */,
+				10982F53FCDE04C4132836DE57B556F9 /* Pods-MPLock_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A7C644916948D7D13A315723A9C5824B /* Pods-MPLock_Example */ = {
+			isa = PBXGroup;
+			children = (
+				05BDA0BF45A3964938A2C28CDE3EB895 /* Pods-MPLock_Example.modulemap */,
+				84A8B3156174F5A7B729AD7622939A0D /* Pods-MPLock_Example-acknowledgements.markdown */,
+				0F36E4B8E6985BFF7A08334B74B5FF76 /* Pods-MPLock_Example-acknowledgements.plist */,
+				ADB080835571A1FD53AED4C739785167 /* Pods-MPLock_Example-dummy.m */,
+				813B579FF0F967A248DE3DFE040F87F4 /* Pods-MPLock_Example-frameworks.sh */,
+				E719AA122ECEEFE39FDD00A6E231DB0F /* Pods-MPLock_Example-Info.plist */,
+				DE114CA02E85DCB9A95A5D7BD06FF30A /* Pods-MPLock_Example-umbrella.h */,
+				3B50337D616309A3102C44DA67FF146F /* Pods-MPLock_Example.debug.xcconfig */,
+				AA92D0019367455E9C83C89595A7AA9C /* Pods-MPLock_Example.release.xcconfig */,
+			);
+			name = "Pods-MPLock_Example";
+			path = "Target Support Files/Pods-MPLock_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				4CDD82A8CF5611CE54CD48D8C712DD32 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				79D8BD8ED41168CC8108F4088DE10C9C /* Products */,
+				88F60B3826A39499DAF0AA61CCA15A62 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2C2A7040A4C8FABB5139795F53FA262 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				37DFE6E2460FA3308D58B2EA62355053 /* MPLock.modulemap */,
+				8E82ED63DD176404A2FE4F1026E56B95 /* MPLock-dummy.m */,
+				0DD9B7BE9DABB94BFB14315619DE0466 /* MPLock-Info.plist */,
+				EBB75E98D11E0FABFD6744471524907D /* MPLock-prefix.pch */,
+				A955D5B348DED98FB1A6A57D8A86897B /* MPLock-umbrella.h */,
+				A7DDA3EA0D2C0B636BA9902534FC420A /* MPLock.debug.xcconfig */,
+				994F373B69C8EBAD1D4B84630CED7D44 /* MPLock.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MPLock";
+			sourceTree = "<group>";
+		};
+		D85CA96F76D5DB5E0A743D62D8EF255C /* Lock */ = {
+			isa = PBXGroup;
+			children = (
+				3771BF88F3224112F8C140ABD424D121 /* MPMutexArrayTest.h */,
+				3E1C34DACD910F7477519E52977D0CCA /* MPMutexArrayTest.m */,
+				E79C1A2497FBB9F4D6A0EB13B357A5A0 /* MPMutexattrLockTest.h */,
+				9E6F685F1250EB65684375C1E7ED23B0 /* MPMutexattrLockTest.m */,
+				E8DBC46DDBCD273FA033F4870AD51E78 /* MPMutexLockTest.h */,
+				51F818452C3D93EF2C14D9A4679C2A30 /* MPMutexLockTest.m */,
+				8E1D9F23E671CCA44D0FC86793DA2637 /* MPNSConditionLockTest.h */,
+				D8313C9BD9A822D65CA6AF08BCEDB6BB /* MPNSConditionLockTest.m */,
+				6CF148A1AFFB52D9F4ABE00802922F0A /* MPNSConditionTest.h */,
+				BA6BC8B8352B12C4DD2C1977C6C18EA5 /* MPNSConditionTest.m */,
+				0CAC07688B05E1A17456BDE11DA2434B /* MPNSLockTest.h */,
+				C90003EA99029B917E5E817C57680C30 /* MPNSLockTest.m */,
+				3F3CC7F2611E56F1424491A51B2B1C70 /* MPOSSpinLockTest.h */,
+				E12C4B5EB1BD2594BE2BC58F8A97DBAB /* MPOSSpinLockTest.m */,
+				38ED932BDDDCF7336F46440FA23438C3 /* MPOSUnfairLockTest.h */,
+				901722C0000D7F4EC0DDD03BF7C560D1 /* MPOSUnfairLockTest.m */,
+				190E529949DC3528EB4E2496F0BB9917 /* MPSemaphoreTest.h */,
+				69134706AFD97B24C46EBDDB9A64A34A /* MPSemaphoreTest.m */,
+				344DE1E0CE8DC66E488B54560C1691BA /* MPSerialQueueTest.h */,
+				B786AA47DB3FAD4C7D15842A355A492E /* MPSerialQueueTest.m */,
+				5E06C2EE275399DC0080C216 /* MPSynchronizedTest.h */,
+				5E06C2EF275399DC0080C216 /* MPSynchronizedTest.m */,
+			);
+			name = Lock;
+			path = MPLock/Classes/Lock;
+			sourceTree = "<group>";
+		};
+		FE9337514F5E363B5E527DD8511E9172 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5AF67DBFBAF8FDCCB0465E4D47AFF202 /* LICENSE */,
+				C134982B8CF33A6171CEC14AE3CCBD63 /* MPLock.podspec */,
+				2FBECFF696B7D278953D7EC0847C396C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1B75299815CDE66A4E240038E3B4844E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A446DA3CD9A922AB8B6FEED70CF58362 /* Pods-MPLock_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F1CD9310F34A54B97E2CE48E827F580 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E0F07E426483E42854523790513859C /* MPLock-umbrella.h in Headers */,
+				7622C14889D781A80D40EF99E5CF0E8C /* MPLockBase.h in Headers */,
+				B8D4376D9ABB6DF54FE09734ACF7A5A7 /* MPMutexArrayTest.h in Headers */,
+				F083257C7D219289A1914BE1CABFC9DF /* MPMutexattrLockTest.h in Headers */,
+				ADBEADDDC0E8E7BC3B21C84A34B18A9F /* MPMutexLockTest.h in Headers */,
+				CFAC713C9974B2E66455AE9CD2DBFB73 /* MPNSConditionLockTest.h in Headers */,
+				761C5BC1068896C611C24CB64C9127D0 /* MPNSConditionTest.h in Headers */,
+				3D62434875846E539B4ABBD5C09E01F7 /* MPNSLockTest.h in Headers */,
+				5E06C2F0275399DC0080C216 /* MPSynchronizedTest.h in Headers */,
+				0ED6154AFC71C3D5DF03409E750A026A /* MPOSSpinLockTest.h in Headers */,
+				C5B6BDD59490EEF4638B4506D8BB0A25 /* MPOSUnfairLockTest.h in Headers */,
+				FE0429CC82FC17153D7EAE68C00BB208 /* MPSemaphoreTest.h in Headers */,
+				80B00797C9AB8E306BCC2DBFAA8E7DC9 /* MPSerialQueueTest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BFCF161E57A93233026F8FE34BA3CDF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10BC6F7A4234110BB3DA97C3B4F71519 /* Pods-MPLock_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		577BE05B4DCC428E3DB4876890BCF5FC /* Pods-MPLock_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB6E46E39D2DC1C475E31C3F5EAED78 /* Build configuration list for PBXNativeTarget "Pods-MPLock_Tests" */;
+			buildPhases = (
+				6BFCF161E57A93233026F8FE34BA3CDF /* Headers */,
+				00421C76A46D0168C7850B589F60C295 /* Sources */,
+				401B19276517778B9FC85C95D9C00D3E /* Frameworks */,
+				4CC49878BAE73DD37E102DEDE881418A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B055531FDA9A32A64C4D55C3D588C9B /* PBXTargetDependency */,
+			);
+			name = "Pods-MPLock_Tests";
+			productName = "Pods-MPLock_Tests";
+			productReference = 85AF9683EB5B412A2B7745200736BA93 /* Pods_MPLock_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B3FD589B3E80E9A5A5F4659DD4957B7A /* MPLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BE2C427427C82DDE3827E2C3C725481 /* Build configuration list for PBXNativeTarget "MPLock" */;
+			buildPhases = (
+				2F1CD9310F34A54B97E2CE48E827F580 /* Headers */,
+				8F943E71625459CF4E051EE6844ECEF8 /* Sources */,
+				D0E4CC8435F05AC6C752E74D7C78F1E3 /* Frameworks */,
+				099544A3E8CDAF10C92137F2FEBFCCFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MPLock;
+			productName = MPLock;
+			productReference = 40407C91F2D4C7D5E855E140E3D1B54C /* MPLock.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF43DE254F61649422D5B9E43A597235 /* Pods-MPLock_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 577E6851493011AC67DB0C730E148123 /* Build configuration list for PBXNativeTarget "Pods-MPLock_Example" */;
+			buildPhases = (
+				1B75299815CDE66A4E240038E3B4844E /* Headers */,
+				789BC19D595C7ABEA2E7E69F0E5CF9AB /* Sources */,
+				7806AF52C978BE61234763984B442F7E /* Frameworks */,
+				9DBF6FDA35DF152259165722E22F0F1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1B73EF1876359C3FEF1914340509052 /* PBXTargetDependency */,
+			);
+			name = "Pods-MPLock_Example";
+			productName = "Pods-MPLock_Example";
+			productReference = 3D496B9E7A67CEE09F1B410F43D0504D /* Pods_MPLock_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 79D8BD8ED41168CC8108F4088DE10C9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3FD589B3E80E9A5A5F4659DD4957B7A /* MPLock */,
+				EF43DE254F61649422D5B9E43A597235 /* Pods-MPLock_Example */,
+				577BE05B4DCC428E3DB4876890BCF5FC /* Pods-MPLock_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		099544A3E8CDAF10C92137F2FEBFCCFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CC49878BAE73DD37E102DEDE881418A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DBF6FDA35DF152259165722E22F0F1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00421C76A46D0168C7850B589F60C295 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4AD9081649A47B82B9917C3F78C4D2F /* Pods-MPLock_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		789BC19D595C7ABEA2E7E69F0E5CF9AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4478EF697751C2A8806A9AE9704E2B26 /* Pods-MPLock_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F943E71625459CF4E051EE6844ECEF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46294B608FFAE3D880738AE902B23C5C /* MPLock-dummy.m in Sources */,
+				94E01300D6E8F9400465CEC63055D9C7 /* MPLockBase.m in Sources */,
+				2C7812B5F73BDAC10B63EB21C47AC420 /* MPMutexArrayTest.m in Sources */,
+				9B2FB20C5AD773FCC4C81D81E6E1DA90 /* MPMutexattrLockTest.m in Sources */,
+				55358A6B9361DA52F9ACA295A12FDDEB /* MPMutexLockTest.m in Sources */,
+				FAFFEAA13377719DE2A47EE82183D5F0 /* MPNSConditionLockTest.m in Sources */,
+				5E06C2F1275399DC0080C216 /* MPSynchronizedTest.m in Sources */,
+				C3851E37113641C4F54B74750CE7115C /* MPNSConditionTest.m in Sources */,
+				17F1FFA0C44803EBA645C5930F4EF5F1 /* MPNSLockTest.m in Sources */,
+				91C4755EC6084BC50B30C6935E9ED9BC /* MPOSSpinLockTest.m in Sources */,
+				73D391B1008CE8EDA64EA751554165F7 /* MPOSUnfairLockTest.m in Sources */,
+				565F0E892AC7DE9B3B1AF6B7032D140C /* MPSemaphoreTest.m in Sources */,
+				B663957506115281E5307A38D1CD7479 /* MPSerialQueueTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B055531FDA9A32A64C4D55C3D588C9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MPLock_Example";
+			target = EF43DE254F61649422D5B9E43A597235 /* Pods-MPLock_Example */;
+			targetProxy = C70D87CEFBED1525E94C4A0A167CD92D /* PBXContainerItemProxy */;
+		};
+		C1B73EF1876359C3FEF1914340509052 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MPLock;
+			target = B3FD589B3E80E9A5A5F4659DD4957B7A /* MPLock */;
+			targetProxy = 731F682AB6BA18EF8A0E31BCEAF038CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2F329B27575BD101F2E29F149A98D31F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7DDA3EA0D2C0B636BA9902534FC420A /* MPLock.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MPLock/MPLock-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MPLock/MPLock-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MPLock/MPLock.modulemap";
+				PRODUCT_MODULE_NAME = MPLock;
+				PRODUCT_NAME = MPLock;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		798803DC6BCEAF2056C0D3B86C162DF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 823B7A73CB1A9FF5D1202047AD76A626 /* Pods-MPLock_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MPLock_Tests/Pods-MPLock_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MPLock_Tests/Pods-MPLock_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		94250D755D03243136E9261DBBA5E01D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA92D0019367455E9C83C89595A7AA9C /* Pods-MPLock_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MPLock_Example/Pods-MPLock_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MPLock_Example/Pods-MPLock_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A4812A85A8765DFE9F07FA64AF9DF151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7455B4FD5E7A463310E1AC8F870D68A /* Pods-MPLock_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MPLock_Tests/Pods-MPLock_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MPLock_Tests/Pods-MPLock_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DB87929364A8B0ECFB0E52FF4B862E51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B50337D616309A3102C44DA67FF146F /* Pods-MPLock_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MPLock_Example/Pods-MPLock_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MPLock_Example/Pods-MPLock_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E98150B9FB0960E4F6211A6A45F64F64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 994F373B69C8EBAD1D4B84630CED7D44 /* MPLock.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MPLock/MPLock-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MPLock/MPLock-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MPLock/MPLock.modulemap";
+				PRODUCT_MODULE_NAME = MPLock;
+				PRODUCT_NAME = MPLock;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BE2C427427C82DDE3827E2C3C725481 /* Build configuration list for PBXNativeTarget "MPLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F329B27575BD101F2E29F149A98D31F /* Debug */,
+				E98150B9FB0960E4F6211A6A45F64F64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		577E6851493011AC67DB0C730E148123 /* Build configuration list for PBXNativeTarget "Pods-MPLock_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB87929364A8B0ECFB0E52FF4B862E51 /* Debug */,
+				94250D755D03243136E9261DBBA5E01D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAB6E46E39D2DC1C475E31C3F5EAED78 /* Build configuration list for PBXNativeTarget "Pods-MPLock_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				798803DC6BCEAF2056C0D3B86C162DF9 /* Debug */,
+				A4812A85A8765DFE9F07FA64AF9DF151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

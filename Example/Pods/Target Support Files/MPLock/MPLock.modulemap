@@ -1,0 +1,6 @@
+framework module MPLock {
+  umbrella header "MPLock-umbrella.h"
+
+  export *
+  module * { export * }
+}

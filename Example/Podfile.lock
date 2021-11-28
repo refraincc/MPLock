@@ -1,0 +1,16 @@
+PODS:
+  - MPLock (0.1.0)
+
+DEPENDENCIES:
+  - MPLock (from `../`)
+
+EXTERNAL SOURCES:
+  MPLock:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MPLock: df1fdf5ccd8c754fc7ee11f0ef710d9232584983
+
+PODFILE CHECKSUM: 6e92741a72070725b370fdd5df29a499cc10db35
+
+COCOAPODS: 1.10.2
