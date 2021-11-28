@@ -20,6 +20,9 @@
 #import "MPOSUnfairLockTest.h"
 #import "MPSemaphoreTest.h"
 #import "MPSerialQueueTest.h"
+#import "MPSynchronizedTest.h"
+#import "MPBarrierTest.h"
+#import "MPPthreadRWTest.h"
 #import "MPLockBase.h"
 
 FOUNDATION_EXPORT double MPLockVersionNumber;

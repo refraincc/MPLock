@@ -7,115 +7,123 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0ED6154AFC71C3D5DF03409E750A026A /* MPOSSpinLockTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F3CC7F2611E56F1424491A51B2B1C70 /* MPOSSpinLockTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00624844C3220DB3C3EF8F067B3078D4 /* MPMutexArrayTest.h in Headers */ = {isa = PBXBuildFile; fileRef = A50CCACFE180D85687F6BFE602C41C58 /* MPMutexArrayTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		10BC6F7A4234110BB3DA97C3B4F71519 /* Pods-MPLock_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA826FC454AC3326338C2A16ED2DEE44 /* Pods-MPLock_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		17F1FFA0C44803EBA645C5930F4EF5F1 /* MPNSLockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C90003EA99029B917E5E817C57680C30 /* MPNSLockTest.m */; };
-		2C7812B5F73BDAC10B63EB21C47AC420 /* MPMutexArrayTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1C34DACD910F7477519E52977D0CCA /* MPMutexArrayTest.m */; };
-		3D62434875846E539B4ABBD5C09E01F7 /* MPNSLockTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CAC07688B05E1A17456BDE11DA2434B /* MPNSLockTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19629194C81350BDF80E7D1FC1E1B899 /* MPSerialQueueTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3265EA5F48A09F3700A544E738224059 /* MPSerialQueueTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DA04CCA9D55BF44489704E192B869E4 /* MPBarrierTest.h in Headers */ = {isa = PBXBuildFile; fileRef = C86AC7B8012BEAB0A7AF78D8629F4E10 /* MPBarrierTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38986E61DC2D102DD8BFE2D32A78D9C3 /* MPNSLockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EEC85E8AB34E8B2BE830570DB8EBE0B /* MPNSLockTest.m */; };
+		3AAD1D54CBD667882112DED278152B7B /* MPSemaphoreTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9379BD28BB8EA2368B537DCC5683232C /* MPSemaphoreTest.m */; };
 		4478EF697751C2A8806A9AE9704E2B26 /* Pods-MPLock_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB080835571A1FD53AED4C739785167 /* Pods-MPLock_Example-dummy.m */; };
-		46294B608FFAE3D880738AE902B23C5C /* MPLock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E82ED63DD176404A2FE4F1026E56B95 /* MPLock-dummy.m */; };
-		55358A6B9361DA52F9ACA295A12FDDEB /* MPMutexLockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F818452C3D93EF2C14D9A4679C2A30 /* MPMutexLockTest.m */; };
-		565F0E892AC7DE9B3B1AF6B7032D140C /* MPSemaphoreTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 69134706AFD97B24C46EBDDB9A64A34A /* MPSemaphoreTest.m */; };
-		5E06C2F0275399DC0080C216 /* MPSynchronizedTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E06C2EE275399DC0080C216 /* MPSynchronizedTest.h */; };
-		5E06C2F1275399DC0080C216 /* MPSynchronizedTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E06C2EF275399DC0080C216 /* MPSynchronizedTest.m */; };
-		6AC775733E905F61D78EE72F6BAB64A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		6E0F07E426483E42854523790513859C /* MPLock-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A955D5B348DED98FB1A6A57D8A86897B /* MPLock-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73D391B1008CE8EDA64EA751554165F7 /* MPOSUnfairLockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 901722C0000D7F4EC0DDD03BF7C560D1 /* MPOSUnfairLockTest.m */; };
-		761C5BC1068896C611C24CB64C9127D0 /* MPNSConditionTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CF148A1AFFB52D9F4ABE00802922F0A /* MPNSConditionTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7622C14889D781A80D40EF99E5CF0E8C /* MPLockBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D63EBC8471FBDD746088B7433C4FC23 /* MPLockBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		80B00797C9AB8E306BCC2DBFAA8E7DC9 /* MPSerialQueueTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 344DE1E0CE8DC66E488B54560C1691BA /* MPSerialQueueTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91C4755EC6084BC50B30C6935E9ED9BC /* MPOSSpinLockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E12C4B5EB1BD2594BE2BC58F8A97DBAB /* MPOSSpinLockTest.m */; };
-		94E01300D6E8F9400465CEC63055D9C7 /* MPLockBase.m in Sources */ = {isa = PBXBuildFile; fileRef = E58C11B4372B295839680F9321138108 /* MPLockBase.m */; };
-		9B2FB20C5AD773FCC4C81D81E6E1DA90 /* MPMutexattrLockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F685F1250EB65684375C1E7ED23B0 /* MPMutexattrLockTest.m */; };
+		5004D89BDEF6E9D4CA338173BD1BA420 /* MPOSSpinLockTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 096A261A9751EFAFCBBD6CF032E6B2D8 /* MPOSSpinLockTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51988F1138E66F4D813052D513BAD1A3 /* MPMutexLockTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 364F0A76C341E68371972B0C0CED627C /* MPMutexLockTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E3A90D3440779288B70B160FC2B5194 /* MPOSUnfairLockTest.h in Headers */ = {isa = PBXBuildFile; fileRef = A4866ECB700595A0211904A0649305E3 /* MPOSUnfairLockTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FAD18851CBBD2A08B9E75ECCC406E82 /* MPSerialQueueTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9235D5A099F3804AC296A41B49367629 /* MPSerialQueueTest.m */; };
+		5FFFB3EB3BA27FC934B7FE90A33D5456 /* MPLockBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECEE045C9F8FA101732461809BC3750 /* MPLockBase.m */; };
+		6BB12970F17160E537C82EE02281BF3E /* MPLock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B6FD092339E9A592613AEA40CACB4C /* MPLock-dummy.m */; };
+		6C7AFA2E648FB2CA75379B1574F768DA /* MPNSConditionLockTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C441EF33800E56986B92F2724C6704E /* MPNSConditionLockTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FBFEC69E2B30D65FFA8A684611DF0E8 /* MPPthreadRWTest.h in Headers */ = {isa = PBXBuildFile; fileRef = AB04CB9E8DF24D953F11604079CE042D /* MPPthreadRWTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79CF084548915BBC1EEA5983C6CDC443 /* MPSemaphoreTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 592CF977EB441B0BF48275E6E019C694 /* MPSemaphoreTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D05010E37E99F409C382A7BA149D461 /* MPMutexArrayTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B71C7E94C7FFAE095CF14BCB6565566 /* MPMutexArrayTest.m */; };
+		7D0E923F7458002EFCF17DA41CE7651C /* MPNSConditionTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FED0127B9A6719E6FB43978FE05B07F /* MPNSConditionTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87EE2A321892A107E40AF10834FE4F8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8E3A8883B1400F12D2D097C39C71A942 /* MPPthreadRWTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0803E9CD26EB872A415000A5C8DA525B /* MPPthreadRWTest.m */; };
+		9A185556EF0958CF2B8EB772CF369362 /* MPMutexattrLockTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 413D4EB2F23DFC771E8E055E0DB389D2 /* MPMutexattrLockTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3107680EFFA0198A02B0985F320F5C9 /* MPOSSpinLockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8734A8D75F51194A820650D787702D /* MPOSSpinLockTest.m */; };
 		A446DA3CD9A922AB8B6FEED70CF58362 /* Pods-MPLock_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE114CA02E85DCB9A95A5D7BD06FF30A /* Pods-MPLock_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ADBEADDDC0E8E7BC3B21C84A34B18A9F /* MPMutexLockTest.h in Headers */ = {isa = PBXBuildFile; fileRef = E8DBC46DDBCD273FA033F4870AD51E78 /* MPMutexLockTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B663957506115281E5307A38D1CD7479 /* MPSerialQueueTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B786AA47DB3FAD4C7D15842A355A492E /* MPSerialQueueTest.m */; };
-		B8D4376D9ABB6DF54FE09734ACF7A5A7 /* MPMutexArrayTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3771BF88F3224112F8C140ABD424D121 /* MPMutexArrayTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3851E37113641C4F54B74750CE7115C /* MPNSConditionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6BC8B8352B12C4DD2C1977C6C18EA5 /* MPNSConditionTest.m */; };
-		C5B6BDD59490EEF4638B4506D8BB0A25 /* MPOSUnfairLockTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 38ED932BDDDCF7336F46440FA23438C3 /* MPOSUnfairLockTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CFAC713C9974B2E66455AE9CD2DBFB73 /* MPNSConditionLockTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E1D9F23E671CCA44D0FC86793DA2637 /* MPNSConditionLockTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA20BDAFD47CF902B548101C5D55B8F7 /* MPNSConditionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 628C1879454C85045283202AC6C2A016 /* MPNSConditionTest.m */; };
+		B120FFDF4B573A4D0055858839B2B96B /* MPLockBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C495EC234D21DF523A98A3BB859D541 /* MPLockBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2BAB49533986AD1DD35B50A0E4F912A /* MPNSConditionLockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B7A0D793DB8953D2198DFAFE1740A84 /* MPNSConditionLockTest.m */; };
+		B75ED8C5B015C4866791C88CA72F6B01 /* MPOSUnfairLockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AA29B18F65569D588A2B893CC923DD2E /* MPOSUnfairLockTest.m */; };
+		BE9780E5AE2A566E2B4D79EFF8D2019A /* MPNSLockTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 6832ADF5B688D34CA9B1F6EE34961DD2 /* MPNSLockTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2A807CB4CBCA4557CB6B430C82975E0 /* MPSynchronizedTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAAC04A08FF3D4B1D994F0D397241DF /* MPSynchronizedTest.m */; };
+		CAB051F3B7D20C57DADC2FFD16534BD6 /* MPMutexattrLockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE6DF4F14FEE974935D39AA08331137 /* MPMutexattrLockTest.m */; };
 		D4AD9081649A47B82B9917C3F78C4D2F /* Pods-MPLock_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D28AF1A18F89463A78FBA24722F67A7 /* Pods-MPLock_Tests-dummy.m */; };
-		F083257C7D219289A1914BE1CABFC9DF /* MPMutexattrLockTest.h in Headers */ = {isa = PBXBuildFile; fileRef = E79C1A2497FBB9F4D6A0EB13B357A5A0 /* MPMutexattrLockTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5942DDBEBC5C935F4808221ADC5D148 /* MPSynchronizedTest.h in Headers */ = {isa = PBXBuildFile; fileRef = C8D6E778D8B0CE8804C86191AAD57955 /* MPSynchronizedTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2A21B029AE2138525B71CBDCB83D427 /* MPLock-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DDBE3936F63EEBC7298A2D30D140A953 /* MPLock-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E89E579E24AB6C25A1FE534B98E24A31 /* MPMutexLockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F984B18A40D8916A5341EA2294278AE /* MPMutexLockTest.m */; };
+		F0CB92A7FA4C3734B31C982CF5D32588 /* MPBarrierTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AC2F5F0BF5F2B1788521887CCE5E73 /* MPBarrierTest.m */; };
 		F5D63E541C0E95F13C7F06D459DDBF6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		FAFFEAA13377719DE2A47EE82183D5F0 /* MPNSConditionLockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D8313C9BD9A822D65CA6AF08BCEDB6BB /* MPNSConditionLockTest.m */; };
-		FE0429CC82FC17153D7EAE68C00BB208 /* MPSemaphoreTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 190E529949DC3528EB4E2496F0BB9917 /* MPSemaphoreTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE4D1A524782262F358886561E9A4384 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		731F682AB6BA18EF8A0E31BCEAF038CB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B3FD589B3E80E9A5A5F4659DD4957B7A;
-			remoteInfo = MPLock;
-		};
-		C70D87CEFBED1525E94C4A0A167CD92D /* PBXContainerItemProxy */ = {
+		65244B28F20C21FCA6B8E95D1D5FED1C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EF43DE254F61649422D5B9E43A597235;
 			remoteInfo = "Pods-MPLock_Example";
 		};
+		E35CAFBAEBD7F19BF30A31AFB02F32E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3FD589B3E80E9A5A5F4659DD4957B7A;
+			remoteInfo = MPLock;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		05BDA0BF45A3964938A2C28CDE3EB895 /* Pods-MPLock_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MPLock_Example.modulemap"; sourceTree = "<group>"; };
-		0CAC07688B05E1A17456BDE11DA2434B /* MPNSLockTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPNSLockTest.h; sourceTree = "<group>"; };
-		0DD9B7BE9DABB94BFB14315619DE0466 /* MPLock-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MPLock-Info.plist"; sourceTree = "<group>"; };
+		0803E9CD26EB872A415000A5C8DA525B /* MPPthreadRWTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPPthreadRWTest.m; sourceTree = "<group>"; };
+		096A261A9751EFAFCBBD6CF032E6B2D8 /* MPOSSpinLockTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPOSSpinLockTest.h; sourceTree = "<group>"; };
 		0F36E4B8E6985BFF7A08334B74B5FF76 /* Pods-MPLock_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MPLock_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		190E529949DC3528EB4E2496F0BB9917 /* MPSemaphoreTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPSemaphoreTest.h; sourceTree = "<group>"; };
-		2FBECFF696B7D278953D7EC0847C396C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		344DE1E0CE8DC66E488B54560C1691BA /* MPSerialQueueTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPSerialQueueTest.h; sourceTree = "<group>"; };
-		3771BF88F3224112F8C140ABD424D121 /* MPMutexArrayTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPMutexArrayTest.h; sourceTree = "<group>"; };
-		37DFE6E2460FA3308D58B2EA62355053 /* MPLock.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MPLock.modulemap; sourceTree = "<group>"; };
-		38ED932BDDDCF7336F46440FA23438C3 /* MPOSUnfairLockTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPOSUnfairLockTest.h; sourceTree = "<group>"; };
+		2A3F383601F9BE5924DC805AB5779509 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2C441EF33800E56986B92F2724C6704E /* MPNSConditionLockTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPNSConditionLockTest.h; sourceTree = "<group>"; };
+		2ECEE045C9F8FA101732461809BC3750 /* MPLockBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPLockBase.m; path = MPLock/Classes/MPLockBase.m; sourceTree = "<group>"; };
+		3265EA5F48A09F3700A544E738224059 /* MPSerialQueueTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPSerialQueueTest.h; sourceTree = "<group>"; };
+		364F0A76C341E68371972B0C0CED627C /* MPMutexLockTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPMutexLockTest.h; sourceTree = "<group>"; };
 		3B50337D616309A3102C44DA67FF146F /* Pods-MPLock_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPLock_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3D496B9E7A67CEE09F1B410F43D0504D /* Pods_MPLock_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MPLock_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E1C34DACD910F7477519E52977D0CCA /* MPMutexArrayTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPMutexArrayTest.m; sourceTree = "<group>"; };
-		3F3CC7F2611E56F1424491A51B2B1C70 /* MPOSSpinLockTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPOSSpinLockTest.h; sourceTree = "<group>"; };
-		40407C91F2D4C7D5E855E140E3D1B54C /* MPLock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MPLock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C495EC234D21DF523A98A3BB859D541 /* MPLockBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPLockBase.h; path = MPLock/Classes/MPLockBase.h; sourceTree = "<group>"; };
+		3D496B9E7A67CEE09F1B410F43D0504D /* Pods_MPLock_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MPLock_Example.framework; path = "Pods-MPLock_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40407C91F2D4C7D5E855E140E3D1B54C /* MPLock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MPLock.framework; path = MPLock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		413D4EB2F23DFC771E8E055E0DB389D2 /* MPMutexattrLockTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPMutexattrLockTest.h; sourceTree = "<group>"; };
 		42D35509E55DAEFAB779E1DECA28BF7B /* Pods-MPLock_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MPLock_Tests-Info.plist"; sourceTree = "<group>"; };
-		51F818452C3D93EF2C14D9A4679C2A30 /* MPMutexLockTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPMutexLockTest.m; sourceTree = "<group>"; };
-		5AF67DBFBAF8FDCCB0465E4D47AFF202 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4B71C7E94C7FFAE095CF14BCB6565566 /* MPMutexArrayTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPMutexArrayTest.m; sourceTree = "<group>"; };
+		4F7EB1DAC206797927B3E8772D1F9AD5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4F8734A8D75F51194A820650D787702D /* MPOSSpinLockTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPOSSpinLockTest.m; sourceTree = "<group>"; };
+		4F984B18A40D8916A5341EA2294278AE /* MPMutexLockTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPMutexLockTest.m; sourceTree = "<group>"; };
+		4FED0127B9A6719E6FB43978FE05B07F /* MPNSConditionTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPNSConditionTest.h; sourceTree = "<group>"; };
+		592CF977EB441B0BF48275E6E019C694 /* MPSemaphoreTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPSemaphoreTest.h; sourceTree = "<group>"; };
+		5CE6DF4F14FEE974935D39AA08331137 /* MPMutexattrLockTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPMutexattrLockTest.m; sourceTree = "<group>"; };
 		5D28AF1A18F89463A78FBA24722F67A7 /* Pods-MPLock_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MPLock_Tests-dummy.m"; sourceTree = "<group>"; };
-		5E06C2EE275399DC0080C216 /* MPSynchronizedTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPSynchronizedTest.h; sourceTree = "<group>"; };
-		5E06C2EF275399DC0080C216 /* MPSynchronizedTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPSynchronizedTest.m; sourceTree = "<group>"; };
-		69134706AFD97B24C46EBDDB9A64A34A /* MPSemaphoreTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPSemaphoreTest.m; sourceTree = "<group>"; };
-		6CF148A1AFFB52D9F4ABE00802922F0A /* MPNSConditionTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPNSConditionTest.h; sourceTree = "<group>"; };
-		6D63EBC8471FBDD746088B7433C4FC23 /* MPLockBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPLockBase.h; path = MPLock/Classes/MPLockBase.h; sourceTree = "<group>"; };
+		628C1879454C85045283202AC6C2A016 /* MPNSConditionTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPNSConditionTest.m; sourceTree = "<group>"; };
+		67B6FD092339E9A592613AEA40CACB4C /* MPLock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MPLock-dummy.m"; sourceTree = "<group>"; };
+		6832ADF5B688D34CA9B1F6EE34961DD2 /* MPNSLockTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPNSLockTest.h; sourceTree = "<group>"; };
+		6B7A0D793DB8953D2198DFAFE1740A84 /* MPNSConditionLockTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPNSConditionLockTest.m; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		813B579FF0F967A248DE3DFE040F87F4 /* Pods-MPLock_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MPLock_Example-frameworks.sh"; sourceTree = "<group>"; };
 		823B7A73CB1A9FF5D1202047AD76A626 /* Pods-MPLock_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPLock_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		84A8B3156174F5A7B729AD7622939A0D /* Pods-MPLock_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MPLock_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		85AF9683EB5B412A2B7745200736BA93 /* Pods_MPLock_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MPLock_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E1D9F23E671CCA44D0FC86793DA2637 /* MPNSConditionLockTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPNSConditionLockTest.h; sourceTree = "<group>"; };
-		8E82ED63DD176404A2FE4F1026E56B95 /* MPLock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MPLock-dummy.m"; sourceTree = "<group>"; };
-		901722C0000D7F4EC0DDD03BF7C560D1 /* MPOSUnfairLockTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPOSUnfairLockTest.m; sourceTree = "<group>"; };
-		994F373B69C8EBAD1D4B84630CED7D44 /* MPLock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MPLock.release.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E6F685F1250EB65684375C1E7ED23B0 /* MPMutexattrLockTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPMutexattrLockTest.m; sourceTree = "<group>"; };
-		A7DDA3EA0D2C0B636BA9902534FC420A /* MPLock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MPLock.debug.xcconfig; sourceTree = "<group>"; };
-		A955D5B348DED98FB1A6A57D8A86897B /* MPLock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPLock-umbrella.h"; sourceTree = "<group>"; };
+		8530ED92A8F60EE342FE236BA7439F5F /* MPLock-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MPLock-Info.plist"; sourceTree = "<group>"; };
+		85AF9683EB5B412A2B7745200736BA93 /* Pods_MPLock_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MPLock_Tests.framework; path = "Pods-MPLock_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9235D5A099F3804AC296A41B49367629 /* MPSerialQueueTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPSerialQueueTest.m; sourceTree = "<group>"; };
+		9379BD28BB8EA2368B537DCC5683232C /* MPSemaphoreTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPSemaphoreTest.m; sourceTree = "<group>"; };
+		94AC2F5F0BF5F2B1788521887CCE5E73 /* MPBarrierTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPBarrierTest.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EEC85E8AB34E8B2BE830570DB8EBE0B /* MPNSLockTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPNSLockTest.m; sourceTree = "<group>"; };
+		A4866ECB700595A0211904A0649305E3 /* MPOSUnfairLockTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPOSUnfairLockTest.h; sourceTree = "<group>"; };
+		A50CCACFE180D85687F6BFE602C41C58 /* MPMutexArrayTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPMutexArrayTest.h; sourceTree = "<group>"; };
+		AA29B18F65569D588A2B893CC923DD2E /* MPOSUnfairLockTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPOSUnfairLockTest.m; sourceTree = "<group>"; };
 		AA92D0019367455E9C83C89595A7AA9C /* Pods-MPLock_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPLock_Example.release.xcconfig"; sourceTree = "<group>"; };
+		AB04CB9E8DF24D953F11604079CE042D /* MPPthreadRWTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPPthreadRWTest.h; sourceTree = "<group>"; };
 		ADB080835571A1FD53AED4C739785167 /* Pods-MPLock_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MPLock_Example-dummy.m"; sourceTree = "<group>"; };
-		B786AA47DB3FAD4C7D15842A355A492E /* MPSerialQueueTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPSerialQueueTest.m; sourceTree = "<group>"; };
-		BA6BC8B8352B12C4DD2C1977C6C18EA5 /* MPNSConditionTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPNSConditionTest.m; sourceTree = "<group>"; };
+		AF2A8630894B20734FAF81C163A7A223 /* MPLock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MPLock.debug.xcconfig; sourceTree = "<group>"; };
 		BA826FC454AC3326338C2A16ED2DEE44 /* Pods-MPLock_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MPLock_Tests-umbrella.h"; sourceTree = "<group>"; };
-		C134982B8CF33A6171CEC14AE3CCBD63 /* MPLock.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MPLock.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BA8473ECEE868C60A2895D9F42ECEA81 /* MPLock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MPLock.release.xcconfig; sourceTree = "<group>"; };
+		BCAAC04A08FF3D4B1D994F0D397241DF /* MPSynchronizedTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPSynchronizedTest.m; sourceTree = "<group>"; };
+		C027E41BAFBB9CE8BFB14A1C67F06A51 /* MPLock-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPLock-prefix.pch"; sourceTree = "<group>"; };
 		C7455B4FD5E7A463310E1AC8F870D68A /* Pods-MPLock_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPLock_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C90003EA99029B917E5E817C57680C30 /* MPNSLockTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPNSLockTest.m; sourceTree = "<group>"; };
+		C86AC7B8012BEAB0A7AF78D8629F4E10 /* MPBarrierTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPBarrierTest.h; sourceTree = "<group>"; };
+		C8D6E778D8B0CE8804C86191AAD57955 /* MPSynchronizedTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPSynchronizedTest.h; sourceTree = "<group>"; };
 		CB1E3CFB0EAA075267023F0693590061 /* Pods-MPLock_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MPLock_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D8313C9BD9A822D65CA6AF08BCEDB6BB /* MPNSConditionLockTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPNSConditionLockTest.m; sourceTree = "<group>"; };
+		D388AFA32EFA101F5351ED612E4A59E0 /* MPLock.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MPLock.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DDBE3936F63EEBC7298A2D30D140A953 /* MPLock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPLock-umbrella.h"; sourceTree = "<group>"; };
 		DE114CA02E85DCB9A95A5D7BD06FF30A /* Pods-MPLock_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MPLock_Example-umbrella.h"; sourceTree = "<group>"; };
-		E12C4B5EB1BD2594BE2BC58F8A97DBAB /* MPOSSpinLockTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPOSSpinLockTest.m; sourceTree = "<group>"; };
-		E58C11B4372B295839680F9321138108 /* MPLockBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPLockBase.m; path = MPLock/Classes/MPLockBase.m; sourceTree = "<group>"; };
 		E719AA122ECEEFE39FDD00A6E231DB0F /* Pods-MPLock_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MPLock_Example-Info.plist"; sourceTree = "<group>"; };
-		E79C1A2497FBB9F4D6A0EB13B357A5A0 /* MPMutexattrLockTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPMutexattrLockTest.h; sourceTree = "<group>"; };
-		E8DBC46DDBCD273FA033F4870AD51E78 /* MPMutexLockTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPMutexLockTest.h; sourceTree = "<group>"; };
-		EBB75E98D11E0FABFD6744471524907D /* MPLock-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPLock-prefix.pch"; sourceTree = "<group>"; };
 		F55E8DB011B11C823B7E2F18157AE50E /* Pods-MPLock_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MPLock_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F947EE63CBE7EAFEF6BA112E6119BEFB /* Pods-MPLock_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MPLock_Tests.modulemap"; sourceTree = "<group>"; };
+		FD02EEAC6DE31CB712B27BD9C51B661A /* MPLock.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MPLock.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,19 +135,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		673946FF47D5BCD98B8D11C8631B61F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87EE2A321892A107E40AF10834FE4F8D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7806AF52C978BE61234763984B442F7E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FE4D1A524782262F358886561E9A4384 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D0E4CC8435F05AC6C752E74D7C78F1E3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6AC775733E905F61D78EE72F6BAB64A6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,23 +170,53 @@
 			path = "Target Support Files/Pods-MPLock_Tests";
 			sourceTree = "<group>";
 		};
-		1D025717C01B42DB785F47389431DB08 /* MPLock */ = {
+		2BFE79D68A35F4A2FE1A5E9C38E773DC /* Lock */ = {
 			isa = PBXGroup;
 			children = (
-				6D63EBC8471FBDD746088B7433C4FC23 /* MPLockBase.h */,
-				E58C11B4372B295839680F9321138108 /* MPLockBase.m */,
-				D85CA96F76D5DB5E0A743D62D8EF255C /* Lock */,
-				FE9337514F5E363B5E527DD8511E9172 /* Pod */,
-				D2C2A7040A4C8FABB5139795F53FA262 /* Support Files */,
+				A50CCACFE180D85687F6BFE602C41C58 /* MPMutexArrayTest.h */,
+				4B71C7E94C7FFAE095CF14BCB6565566 /* MPMutexArrayTest.m */,
+				413D4EB2F23DFC771E8E055E0DB389D2 /* MPMutexattrLockTest.h */,
+				5CE6DF4F14FEE974935D39AA08331137 /* MPMutexattrLockTest.m */,
+				364F0A76C341E68371972B0C0CED627C /* MPMutexLockTest.h */,
+				4F984B18A40D8916A5341EA2294278AE /* MPMutexLockTest.m */,
+				2C441EF33800E56986B92F2724C6704E /* MPNSConditionLockTest.h */,
+				6B7A0D793DB8953D2198DFAFE1740A84 /* MPNSConditionLockTest.m */,
+				4FED0127B9A6719E6FB43978FE05B07F /* MPNSConditionTest.h */,
+				628C1879454C85045283202AC6C2A016 /* MPNSConditionTest.m */,
+				6832ADF5B688D34CA9B1F6EE34961DD2 /* MPNSLockTest.h */,
+				9EEC85E8AB34E8B2BE830570DB8EBE0B /* MPNSLockTest.m */,
+				096A261A9751EFAFCBBD6CF032E6B2D8 /* MPOSSpinLockTest.h */,
+				4F8734A8D75F51194A820650D787702D /* MPOSSpinLockTest.m */,
+				A4866ECB700595A0211904A0649305E3 /* MPOSUnfairLockTest.h */,
+				AA29B18F65569D588A2B893CC923DD2E /* MPOSUnfairLockTest.m */,
+				592CF977EB441B0BF48275E6E019C694 /* MPSemaphoreTest.h */,
+				9379BD28BB8EA2368B537DCC5683232C /* MPSemaphoreTest.m */,
+				3265EA5F48A09F3700A544E738224059 /* MPSerialQueueTest.h */,
+				9235D5A099F3804AC296A41B49367629 /* MPSerialQueueTest.m */,
+				C8D6E778D8B0CE8804C86191AAD57955 /* MPSynchronizedTest.h */,
+				BCAAC04A08FF3D4B1D994F0D397241DF /* MPSynchronizedTest.m */,
+				459B01D5A7B2130D9E6527D91672168C /* WriteRead */,
 			);
-			name = MPLock;
-			path = ../..;
+			name = Lock;
+			path = MPLock/Classes/Lock;
+			sourceTree = "<group>";
+		};
+		459B01D5A7B2130D9E6527D91672168C /* WriteRead */ = {
+			isa = PBXGroup;
+			children = (
+				C86AC7B8012BEAB0A7AF78D8629F4E10 /* MPBarrierTest.h */,
+				94AC2F5F0BF5F2B1788521887CCE5E73 /* MPBarrierTest.m */,
+				AB04CB9E8DF24D953F11604079CE042D /* MPPthreadRWTest.h */,
+				0803E9CD26EB872A415000A5C8DA525B /* MPPthreadRWTest.m */,
+			);
+			name = WriteRead;
+			path = WriteRead;
 			sourceTree = "<group>";
 		};
 		4CDD82A8CF5611CE54CD48D8C712DD32 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1D025717C01B42DB785F47389431DB08 /* MPLock */,
+				662FF0047A9B028FDC13652BDFA36C0D /* MPLock */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -189,6 +227,29 @@
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		5BDDF4FC10A74A6050DA1421C944F332 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4F7EB1DAC206797927B3E8772D1F9AD5 /* LICENSE */,
+				D388AFA32EFA101F5351ED612E4A59E0 /* MPLock.podspec */,
+				2A3F383601F9BE5924DC805AB5779509 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		662FF0047A9B028FDC13652BDFA36C0D /* MPLock */ = {
+			isa = PBXGroup;
+			children = (
+				3C495EC234D21DF523A98A3BB859D541 /* MPLockBase.h */,
+				2ECEE045C9F8FA101732461809BC3750 /* MPLockBase.m */,
+				2BFE79D68A35F4A2FE1A5E9C38E773DC /* Lock */,
+				5BDDF4FC10A74A6050DA1421C944F332 /* Pod */,
+				D0A89E860B4AB259BCE2CF5E85F5C402 /* Support Files */,
+			);
+			name = MPLock;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		79D8BD8ED41168CC8108F4088DE10C9C /* Products */ = {
@@ -238,67 +299,27 @@
 			);
 			sourceTree = "<group>";
 		};
+		D0A89E860B4AB259BCE2CF5E85F5C402 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD02EEAC6DE31CB712B27BD9C51B661A /* MPLock.modulemap */,
+				67B6FD092339E9A592613AEA40CACB4C /* MPLock-dummy.m */,
+				8530ED92A8F60EE342FE236BA7439F5F /* MPLock-Info.plist */,
+				C027E41BAFBB9CE8BFB14A1C67F06A51 /* MPLock-prefix.pch */,
+				DDBE3936F63EEBC7298A2D30D140A953 /* MPLock-umbrella.h */,
+				AF2A8630894B20734FAF81C163A7A223 /* MPLock.debug.xcconfig */,
+				BA8473ECEE868C60A2895D9F42ECEA81 /* MPLock.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MPLock";
+			sourceTree = "<group>";
+		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D2C2A7040A4C8FABB5139795F53FA262 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				37DFE6E2460FA3308D58B2EA62355053 /* MPLock.modulemap */,
-				8E82ED63DD176404A2FE4F1026E56B95 /* MPLock-dummy.m */,
-				0DD9B7BE9DABB94BFB14315619DE0466 /* MPLock-Info.plist */,
-				EBB75E98D11E0FABFD6744471524907D /* MPLock-prefix.pch */,
-				A955D5B348DED98FB1A6A57D8A86897B /* MPLock-umbrella.h */,
-				A7DDA3EA0D2C0B636BA9902534FC420A /* MPLock.debug.xcconfig */,
-				994F373B69C8EBAD1D4B84630CED7D44 /* MPLock.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MPLock";
-			sourceTree = "<group>";
-		};
-		D85CA96F76D5DB5E0A743D62D8EF255C /* Lock */ = {
-			isa = PBXGroup;
-			children = (
-				3771BF88F3224112F8C140ABD424D121 /* MPMutexArrayTest.h */,
-				3E1C34DACD910F7477519E52977D0CCA /* MPMutexArrayTest.m */,
-				E79C1A2497FBB9F4D6A0EB13B357A5A0 /* MPMutexattrLockTest.h */,
-				9E6F685F1250EB65684375C1E7ED23B0 /* MPMutexattrLockTest.m */,
-				E8DBC46DDBCD273FA033F4870AD51E78 /* MPMutexLockTest.h */,
-				51F818452C3D93EF2C14D9A4679C2A30 /* MPMutexLockTest.m */,
-				8E1D9F23E671CCA44D0FC86793DA2637 /* MPNSConditionLockTest.h */,
-				D8313C9BD9A822D65CA6AF08BCEDB6BB /* MPNSConditionLockTest.m */,
-				6CF148A1AFFB52D9F4ABE00802922F0A /* MPNSConditionTest.h */,
-				BA6BC8B8352B12C4DD2C1977C6C18EA5 /* MPNSConditionTest.m */,
-				0CAC07688B05E1A17456BDE11DA2434B /* MPNSLockTest.h */,
-				C90003EA99029B917E5E817C57680C30 /* MPNSLockTest.m */,
-				3F3CC7F2611E56F1424491A51B2B1C70 /* MPOSSpinLockTest.h */,
-				E12C4B5EB1BD2594BE2BC58F8A97DBAB /* MPOSSpinLockTest.m */,
-				38ED932BDDDCF7336F46440FA23438C3 /* MPOSUnfairLockTest.h */,
-				901722C0000D7F4EC0DDD03BF7C560D1 /* MPOSUnfairLockTest.m */,
-				190E529949DC3528EB4E2496F0BB9917 /* MPSemaphoreTest.h */,
-				69134706AFD97B24C46EBDDB9A64A34A /* MPSemaphoreTest.m */,
-				344DE1E0CE8DC66E488B54560C1691BA /* MPSerialQueueTest.h */,
-				B786AA47DB3FAD4C7D15842A355A492E /* MPSerialQueueTest.m */,
-				5E06C2EE275399DC0080C216 /* MPSynchronizedTest.h */,
-				5E06C2EF275399DC0080C216 /* MPSynchronizedTest.m */,
-			);
-			name = Lock;
-			path = MPLock/Classes/Lock;
-			sourceTree = "<group>";
-		};
-		FE9337514F5E363B5E527DD8511E9172 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				5AF67DBFBAF8FDCCB0465E4D47AFF202 /* LICENSE */,
-				C134982B8CF33A6171CEC14AE3CCBD63 /* MPLock.podspec */,
-				2FBECFF696B7D278953D7EC0847C396C /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,23 +333,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2F1CD9310F34A54B97E2CE48E827F580 /* Headers */ = {
+		4DDA2B45A0D828E171E9CB802A77B18E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E0F07E426483E42854523790513859C /* MPLock-umbrella.h in Headers */,
-				7622C14889D781A80D40EF99E5CF0E8C /* MPLockBase.h in Headers */,
-				B8D4376D9ABB6DF54FE09734ACF7A5A7 /* MPMutexArrayTest.h in Headers */,
-				F083257C7D219289A1914BE1CABFC9DF /* MPMutexattrLockTest.h in Headers */,
-				ADBEADDDC0E8E7BC3B21C84A34B18A9F /* MPMutexLockTest.h in Headers */,
-				CFAC713C9974B2E66455AE9CD2DBFB73 /* MPNSConditionLockTest.h in Headers */,
-				761C5BC1068896C611C24CB64C9127D0 /* MPNSConditionTest.h in Headers */,
-				3D62434875846E539B4ABBD5C09E01F7 /* MPNSLockTest.h in Headers */,
-				5E06C2F0275399DC0080C216 /* MPSynchronizedTest.h in Headers */,
-				0ED6154AFC71C3D5DF03409E750A026A /* MPOSSpinLockTest.h in Headers */,
-				C5B6BDD59490EEF4638B4506D8BB0A25 /* MPOSUnfairLockTest.h in Headers */,
-				FE0429CC82FC17153D7EAE68C00BB208 /* MPSemaphoreTest.h in Headers */,
-				80B00797C9AB8E306BCC2DBFAA8E7DC9 /* MPSerialQueueTest.h in Headers */,
+				1DA04CCA9D55BF44489704E192B869E4 /* MPBarrierTest.h in Headers */,
+				E2A21B029AE2138525B71CBDCB83D427 /* MPLock-umbrella.h in Headers */,
+				B120FFDF4B573A4D0055858839B2B96B /* MPLockBase.h in Headers */,
+				00624844C3220DB3C3EF8F067B3078D4 /* MPMutexArrayTest.h in Headers */,
+				9A185556EF0958CF2B8EB772CF369362 /* MPMutexattrLockTest.h in Headers */,
+				51988F1138E66F4D813052D513BAD1A3 /* MPMutexLockTest.h in Headers */,
+				6C7AFA2E648FB2CA75379B1574F768DA /* MPNSConditionLockTest.h in Headers */,
+				7D0E923F7458002EFCF17DA41CE7651C /* MPNSConditionTest.h in Headers */,
+				BE9780E5AE2A566E2B4D79EFF8D2019A /* MPNSLockTest.h in Headers */,
+				5004D89BDEF6E9D4CA338173BD1BA420 /* MPOSSpinLockTest.h in Headers */,
+				5E3A90D3440779288B70B160FC2B5194 /* MPOSUnfairLockTest.h in Headers */,
+				6FBFEC69E2B30D65FFA8A684611DF0E8 /* MPPthreadRWTest.h in Headers */,
+				79CF084548915BBC1EEA5983C6CDC443 /* MPSemaphoreTest.h in Headers */,
+				19629194C81350BDF80E7D1FC1E1B899 /* MPSerialQueueTest.h in Headers */,
+				D5942DDBEBC5C935F4808221ADC5D148 /* MPSynchronizedTest.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,7 +378,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				1B055531FDA9A32A64C4D55C3D588C9B /* PBXTargetDependency */,
+				191F1C0111A5ED78DE5C51A7F088E927 /* PBXTargetDependency */,
 			);
 			name = "Pods-MPLock_Tests";
 			productName = "Pods-MPLock_Tests";
@@ -364,12 +387,12 @@
 		};
 		B3FD589B3E80E9A5A5F4659DD4957B7A /* MPLock */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4BE2C427427C82DDE3827E2C3C725481 /* Build configuration list for PBXNativeTarget "MPLock" */;
+			buildConfigurationList = 57E1C6354A711178FA9FB436FE8B8875 /* Build configuration list for PBXNativeTarget "MPLock" */;
 			buildPhases = (
-				2F1CD9310F34A54B97E2CE48E827F580 /* Headers */,
-				8F943E71625459CF4E051EE6844ECEF8 /* Sources */,
-				D0E4CC8435F05AC6C752E74D7C78F1E3 /* Frameworks */,
-				099544A3E8CDAF10C92137F2FEBFCCFC /* Resources */,
+				4DDA2B45A0D828E171E9CB802A77B18E /* Headers */,
+				6EF62BCB31344552B96477AE272EFD2F /* Sources */,
+				673946FF47D5BCD98B8D11C8631B61F3 /* Frameworks */,
+				F64A0D2563F7A6B78E43B47C512922A5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -392,7 +415,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				C1B73EF1876359C3FEF1914340509052 /* PBXTargetDependency */,
+				18154A5F9D0AFFEC604C99A093D64225 /* PBXTargetDependency */,
 			);
 			name = "Pods-MPLock_Example";
 			productName = "Pods-MPLock_Example";
@@ -429,13 +452,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		099544A3E8CDAF10C92137F2FEBFCCFC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4CC49878BAE73DD37E102DEDE881418A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -444,6 +460,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9DBF6FDA35DF152259165722E22F0F1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F64A0D2563F7A6B78E43B47C512922A5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -461,6 +484,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6EF62BCB31344552B96477AE272EFD2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0CB92A7FA4C3734B31C982CF5D32588 /* MPBarrierTest.m in Sources */,
+				6BB12970F17160E537C82EE02281BF3E /* MPLock-dummy.m in Sources */,
+				5FFFB3EB3BA27FC934B7FE90A33D5456 /* MPLockBase.m in Sources */,
+				7D05010E37E99F409C382A7BA149D461 /* MPMutexArrayTest.m in Sources */,
+				CAB051F3B7D20C57DADC2FFD16534BD6 /* MPMutexattrLockTest.m in Sources */,
+				E89E579E24AB6C25A1FE534B98E24A31 /* MPMutexLockTest.m in Sources */,
+				B2BAB49533986AD1DD35B50A0E4F912A /* MPNSConditionLockTest.m in Sources */,
+				AA20BDAFD47CF902B548101C5D55B8F7 /* MPNSConditionTest.m in Sources */,
+				38986E61DC2D102DD8BFE2D32A78D9C3 /* MPNSLockTest.m in Sources */,
+				A3107680EFFA0198A02B0985F320F5C9 /* MPOSSpinLockTest.m in Sources */,
+				B75ED8C5B015C4866791C88CA72F6B01 /* MPOSUnfairLockTest.m in Sources */,
+				8E3A8883B1400F12D2D097C39C71A942 /* MPPthreadRWTest.m in Sources */,
+				3AAD1D54CBD667882112DED278152B7B /* MPSemaphoreTest.m in Sources */,
+				5FAD18851CBBD2A08B9E75ECCC406E82 /* MPSerialQueueTest.m in Sources */,
+				C2A807CB4CBCA4557CB6B430C82975E0 /* MPSynchronizedTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		789BC19D595C7ABEA2E7E69F0E5CF9AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -469,40 +514,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F943E71625459CF4E051EE6844ECEF8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				46294B608FFAE3D880738AE902B23C5C /* MPLock-dummy.m in Sources */,
-				94E01300D6E8F9400465CEC63055D9C7 /* MPLockBase.m in Sources */,
-				2C7812B5F73BDAC10B63EB21C47AC420 /* MPMutexArrayTest.m in Sources */,
-				9B2FB20C5AD773FCC4C81D81E6E1DA90 /* MPMutexattrLockTest.m in Sources */,
-				55358A6B9361DA52F9ACA295A12FDDEB /* MPMutexLockTest.m in Sources */,
-				FAFFEAA13377719DE2A47EE82183D5F0 /* MPNSConditionLockTest.m in Sources */,
-				5E06C2F1275399DC0080C216 /* MPSynchronizedTest.m in Sources */,
-				C3851E37113641C4F54B74750CE7115C /* MPNSConditionTest.m in Sources */,
-				17F1FFA0C44803EBA645C5930F4EF5F1 /* MPNSLockTest.m in Sources */,
-				91C4755EC6084BC50B30C6935E9ED9BC /* MPOSSpinLockTest.m in Sources */,
-				73D391B1008CE8EDA64EA751554165F7 /* MPOSUnfairLockTest.m in Sources */,
-				565F0E892AC7DE9B3B1AF6B7032D140C /* MPSemaphoreTest.m in Sources */,
-				B663957506115281E5307A38D1CD7479 /* MPSerialQueueTest.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1B055531FDA9A32A64C4D55C3D588C9B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-MPLock_Example";
-			target = EF43DE254F61649422D5B9E43A597235 /* Pods-MPLock_Example */;
-			targetProxy = C70D87CEFBED1525E94C4A0A167CD92D /* PBXContainerItemProxy */;
-		};
-		C1B73EF1876359C3FEF1914340509052 /* PBXTargetDependency */ = {
+		18154A5F9D0AFFEC604C99A093D64225 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MPLock;
 			target = B3FD589B3E80E9A5A5F4659DD4957B7A /* MPLock */;
-			targetProxy = 731F682AB6BA18EF8A0E31BCEAF038CB /* PBXContainerItemProxy */;
+			targetProxy = E35CAFBAEBD7F19BF30A31AFB02F32E6 /* PBXContainerItemProxy */;
+		};
+		191F1C0111A5ED78DE5C51A7F088E927 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MPLock_Example";
+			target = EF43DE254F61649422D5B9E43A597235 /* Pods-MPLock_Example */;
+			targetProxy = 65244B28F20C21FCA6B8E95D1D5FED1C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -573,9 +598,9 @@
 			};
 			name = Debug;
 		};
-		2F329B27575BD101F2E29F149A98D31F /* Debug */ = {
+		28589EFF9022F7EFE593539118934DFA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7DDA3EA0D2C0B636BA9902534FC420A /* MPLock.debug.xcconfig */;
+			baseConfigurationReference = AF2A8630894B20734FAF81C163A7A223 /* MPLock.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -701,6 +726,37 @@
 			};
 			name = Release;
 		};
+		AC5991E2E835F60DFB7F942E7228C040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA8473ECEE868C60A2895D9F42ECEA81 /* MPLock.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MPLock/MPLock-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MPLock/MPLock-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MPLock/MPLock.modulemap";
+				PRODUCT_MODULE_NAME = MPLock;
+				PRODUCT_NAME = MPLock;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -756,7 +812,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -794,37 +851,6 @@
 			};
 			name = Debug;
 		};
-		E98150B9FB0960E4F6211A6A45F64F64 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 994F373B69C8EBAD1D4B84630CED7D44 /* MPLock.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MPLock/MPLock-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MPLock/MPLock-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MPLock/MPLock.modulemap";
-				PRODUCT_MODULE_NAME = MPLock;
-				PRODUCT_NAME = MPLock;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -837,20 +863,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4BE2C427427C82DDE3827E2C3C725481 /* Build configuration list for PBXNativeTarget "MPLock" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2F329B27575BD101F2E29F149A98D31F /* Debug */,
-				E98150B9FB0960E4F6211A6A45F64F64 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		577E6851493011AC67DB0C730E148123 /* Build configuration list for PBXNativeTarget "Pods-MPLock_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DB87929364A8B0ECFB0E52FF4B862E51 /* Debug */,
 				94250D755D03243136E9261DBBA5E01D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57E1C6354A711178FA9FB436FE8B8875 /* Build configuration list for PBXNativeTarget "MPLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28589EFF9022F7EFE593539118934DFA /* Debug */,
+				AC5991E2E835F60DFB7F942E7228C040 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

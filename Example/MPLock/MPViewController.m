@@ -13,6 +13,8 @@
 #import "MPMutexArrayTest.h"
 #import "MPNSConditionLockTest.h"
 #import "MPSemaphoreTest.h"
+#import "MPBarrierTest.h"
+#import "MPPthreadRWTest.h"
 
 @interface MPViewController ()
 
@@ -28,7 +30,7 @@
 {
     [super viewDidLoad];
     
-    self.testModel = [[MPSemaphoreTest alloc] init];
+    self.testModel = [[MPPthreadRWTest alloc] init];
     
     
 }
